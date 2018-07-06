@@ -9,9 +9,7 @@
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='function']" position="before">
                     <field name="din" />
-                    <field name="ssn" />
                     <field name="tin" />
-                    <field name="ein" />
                 </xpath>
             </field>
         </record>

@@ -5,9 +5,8 @@
     'version': '8.0.0.1',
     'author': 'robert.gauto@gmail.com',
     'depends': [
-        'account',
-        'hr',
-        'res_partner_extra_fields'
+        'hr_payroll',
+        'hr_employee_extra_fields'
     ],
     'data': [
         'reports/hr_payslip_report.xml',
