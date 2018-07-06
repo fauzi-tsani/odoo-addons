@@ -21,7 +21,7 @@
     'name': 'Web Quick Print',
     'description': 'Add quick print feature to views enabling chrome print dialog directly',
     'version': '8.0.0.1',
-    'author': 'Robert Gauto',
+    'author': '8Bits Software',
     'depends': [
         'base',
         'report'
