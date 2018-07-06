@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Management Solution
 #    Copyright (C) 2018 8Bits Software
+#
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
 #    published by the Free Software Foundation, either version 3 of the
@@ -22,6 +22,7 @@
     'author': '8Bits Software',
     'category': 'Tools',
     'version': '8.0.0.1',
+    'license': 'AGPL-3',
     'depends': ['base'],
     'external_dependencies': {
         'python': ['graphql-core']
