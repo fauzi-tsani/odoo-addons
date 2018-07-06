@@ -1,0 +1,1 @@
+# Odoo 8.0 addons

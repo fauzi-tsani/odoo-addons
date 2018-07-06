@@ -18,13 +18,16 @@
 #
 ##############################################################################
 {
-    'name': 'Partner Extra Fields',
-    'description': 'Add partner extra fields',
+    'name': 'Web Quick Print',
+    'description': 'Add quick print feature to views enabling chrome print dialog directly',
     'version': '8.0.0.1',
-    'author': '8Bits Software',
-    'depends': ['base'],
+    'author': 'Robert Gauto',
+    'depends': [
+        'base',
+        'report'
+    ],
     'data': [
-        'views/res_partner_view.xml'
+        'templates/web_quick_print_asset.xml',
     ],
     'installable': True
 }
