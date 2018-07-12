@@ -21,7 +21,7 @@
     'name': 'HR Employee Extra Fields',
     'version': '8.0.0.1',
     'category': 'Tools',
-    'author': 'robert.gauto@gmail.com',
+    'author': '8Bits Software',
     'maintainer': 'Robert Gauto',
     'depends': [
         'base',
