@@ -18,17 +18,25 @@
 #
 ##############################################################################
 {
-    'name': 'HR Employee Extra Fields',
+    'name': 'HR Employee Cam',
+    'description': 'Enable employee take a photo from webcam',
+    'summary': '''
+        Enable in other menu in employee form a menu to take a photo
+    ''',
     'version': '8.0.0.1',
-    'category': 'Tools',
-    'author': 'robert.gauto@gmail.com',
-    'maintainer': 'Robert Gauto',
+    'author': '8Bits Software',
     'depends': [
         'base',
+        'web',
         'hr'
     ],
     'data': [
-        'views/hr_employee_view.xml',
+        'hr_employee_cam.xml'
     ],
-    'installable': True
+    'qweb': [
+        'static/src/xml/*.xml'
+    ],
+    'installable': True,
+    'auto_install': False,
+    'application': False,
 }
