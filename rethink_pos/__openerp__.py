@@ -18,15 +18,17 @@
 #
 ##############################################################################
 {
-    'name': 'Partner Extra Fields',
-    'description': 'Add partner extra fields',
+    'name': 'Rethink Point of Sale',
+    'description': '',
     'author': '8Bits Software',
     'category': 'Tools',
     'version': '8.0.0.1',
     'license': 'AGPL-3',
-    'depends': ['base'],
+    'depends': [
+        'base',
+    ],
     'data': [
-        'views/res_partner_view.xml'
+        '',
     ],
     'installable': True
 }

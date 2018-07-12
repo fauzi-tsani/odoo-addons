@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <template id="web_quick_print_asset" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/web_quick_print/static/src/lib/print.js" />
+                <script type="text/javascript" src="/web_quick_print/static/src/js/main.js" />
+            </xpath>
+        </template>
+    </data>
+</openerp>

@@ -1,0 +1,13 @@
+<openerp>
+    <data>
+        <template id="material_kit_theme_assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/material_kit_theme/static/src/css/material-kit.css" />
+                <script type="text/javascript" src="/material_kit_theme/static/src/js/material.min.js" />
+                <script type="text/javascript" src="/material_kit_theme/static/src/js/material-kit.js" />
+                <script type="text/javascript" src="/material_kit_theme/static/src/js/nouislider.min.js" />
+            </xpath>
+        </template>
+    </data>
+</openerp>
+

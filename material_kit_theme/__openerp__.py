@@ -18,15 +18,16 @@
 #
 ##############################################################################
 {
-    'name': 'Partner Extra Fields',
-    'description': 'Add partner extra fields',
+    'name': "Material Kit Theme",
     'author': '8Bits Software',
     'category': 'Tools',
     'version': '8.0.0.1',
     'license': 'AGPL-3',
-    'depends': ['base'],
+    'category': 'Uncategorized',
+    'version': '0.1',
+    'depends': ['base', 'web'],
     'data': [
-        'views/res_partner_view.xml'
+        'templates.xml',
     ],
-    'installable': True
+    'application': True,
 }
